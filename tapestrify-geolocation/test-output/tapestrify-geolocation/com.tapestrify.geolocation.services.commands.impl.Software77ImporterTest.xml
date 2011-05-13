@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.tapestrify.geolocation.services.commands.impl.Software77ImporterTest" failures="0" tests="1" time="0.242" errors="0">
+  <properties/>
+  <testcase name="importFileTest" time="0.041" classname="com.tapestrify.geolocation.services.commands.impl.Software77ImporterTest"/>
+</testsuite>

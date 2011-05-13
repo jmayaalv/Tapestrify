@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/20/trunk/tapestrify/tapestrify-core/src/main/java/com/tapestrify/core/services
+END
+DownloadService.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/20/trunk/tapestrify/tapestrify-core/src/main/java/com/tapestrify/core/services/DownloadService.java
+END
+TapestrifyModule.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/28/trunk/tapestrify/tapestrify-core/src/main/java/com/tapestrify/core/services/TapestrifyModule.java
+END
+ZipService.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/20/trunk/tapestrify/tapestrify-core/src/main/java/com/tapestrify/core/services/ZipService.java
+END

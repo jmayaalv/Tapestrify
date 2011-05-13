@@ -1,0 +1,16 @@
+<testng-results>
+  <reporter-output>
+  </reporter-output>
+  <suite name="tapestrify-geolocation">
+    <groups>
+    </groups>
+    <test name="com.tapestrify.geolocation.services.commands.impl.Software77ImporterTest">
+      <class name="com.tapestrify.geolocation.services.commands.impl.Software77ImporterTest">
+        <test-method status="PASS" signature="importFileTest()" name="importFileTest" duration-ms="41" started-at="2009-11-14T21:15:26Z" finished-at="2009-11-14T21:15:26Z">
+        </test-method>
+        <test-method status="PASS" signature="setup()" name="setup" is-config="true" duration-ms="166" started-at="2009-11-14T21:15:26Z" finished-at="2009-11-14T21:15:26Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

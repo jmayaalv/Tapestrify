@@ -1,0 +1,61 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>tapestrify</groupId>
+	<artifactId>tapestrify</artifactId>
+	<packaging>pom</packaging>
+	<version>0.0.1-SNAPSHOT</version>
+	<modules>
+		<module>tapestrify-ui</module>
+		<module>tapestrify-geolocation</module>
+		<module>tapestrify-core</module>
+	</modules>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.apache.tapestry</groupId>
+			<artifactId>tapestry-core</artifactId>
+			<version>${tapestry-release-version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>5.5</version>
+			<classifier>jdk15</classifier>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.mockito</groupId>
+			<artifactId>mockito-all</artifactId>
+			<version>1.8.1</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
+	<repositories>
+		<!--
+			This repository is only needed if the Tapestry released artifacts
+			haven't made it to the central Maven repository yet.
+		-->
+		<repository>
+			<id>tapestry</id>
+			<url>http://tapestry.formos.com/maven-repository/</url>
+		</repository>
+
+		<!--
+			This repository is only needed when the tapestry-release-version is a
+			snapshot release.
+		-->
+		<repository>
+			<id>tapestry-snapshots</id>
+			<url>http://repository.apache.org/snapshots</url>
+		</repository>
+	</repositories>
+
+	<properties>
+		<tapestry-release-version>5.2.2</tapestry-release-version>
+		<hibernate.version>3.5.1-Final</hibernate.version>
+		<chenillekit-release-version>1.3.0</chenillekit-release-version>
+	</properties>
+</project>
